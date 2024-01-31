@@ -106,4 +106,4 @@ Os testes automatizados cobrem os seguintes cenários:
 
 Executar testes simples e eficazes em uma aplicação básica como o Blog do Agi é fundamental para garantir a qualidade e a estabilidade da homepage.
 
-Se você tiver sugestões ou melhorias para os testes existentes, sinta-se à vontade para contribuir com o projeto!es.
+Se você tiver sugestões ou melhorias para os testes existentes, sinta-se à vontade para contribuir com o projeto!
