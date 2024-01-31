@@ -1,0 +1,22 @@
+{
+  "name": "blogdoagi-automacao",
+  "version": "1.0.0",
+  "description": "Este repositório contém o código-fonte e os recursos relacionados à automação de testes para o blog do Agi. O objetivo deste projeto é automatizar os cenários de teste mais relevantes identificados na pesquisa de artigos do blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielCBatista/blogdoagi-automacao.git"
+  },
+  "author": "Gabriel Batista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCBatista/blogdoagi-automacao/issues"
+  },
+  "homepage": "https://github.com/GabrielCBatista/blogdoagi-automacao#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
