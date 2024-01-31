@@ -38,17 +38,18 @@ npm install
 
 ## Estrutura do Projeto
 
-A estrutura do projeto é a seguinte:
+Este é o layout da estrutura do projeto:
 
-- **cypress**: Contém todos os arquivos relacionados aos testes Cypress.
-  - **e2e**: Contém os arquivos de teste Cypress, como blogagi.cy.js.
-- **fixtures**: Contém arquivos JSON usados para armazenar dados de teste, como fixtures.json.
-- **support**: Contém arquivos de suporte, como comandos personalizados e configurações.
-  - **commands.js**: Arquivo que contém comandos personalizados do Cypress.
-  - **e2e.js**: Arquivo de suporte específico para os testes de end-to-end (e2e).
-- **cypress.json**: Arquivo de configuração do Cypress.
-- **README.md**: Este arquivo que você está lendo.
-
+- **cypress/**: Contém arquivos relacionados aos testes Cypress.
+  - **e2e/**: Contém o arquivo de teste Cypress `blogagi.cy.js`, onde os testes são definidos e executados.
+- **fixtures/**: Armazena arquivos JSON utilizados para dados de teste, como `fixtures.json`.
+- **support/**: Contém arquivos de suporte para os testes Cypress.
+  - **commands.js**: Define comandos personalizados do Cypress.
+  - **e2e.js**: Arquivo de suporte específico para testes de end-to-end (e2e).
+  - **elements/**: Contém o arquivo `BlogElements.js`, que define os elementos da página.
+  - **pageObjects/**: Contém o arquivo `BlogPage.js`, que define a classe `BlogPage` para interações e asserções na página.
+- **cypress.json**: Arquivo de configuração global do Cypress.
+- **README.md**: Este arquivo fornece informações sobre a estrutura do projeto.
 
 ## Executando os Testes
 
